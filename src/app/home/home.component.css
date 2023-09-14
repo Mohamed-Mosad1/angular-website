@@ -1,0 +1,13 @@
+.home {
+  margin-top: 120px;
+  background-color: #1abc9c;
+  min-height: 80vh;
+}
+.home img {
+  width: 250px;
+}
+.home .line {
+  height: 4px;
+  width: 80px;
+  background-color: white;
+}

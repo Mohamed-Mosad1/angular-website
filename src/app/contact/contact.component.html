@@ -1,0 +1,39 @@
+<section class="contact mb-3 d-flex align-items-center justify-content-center">
+  <div class="container-fluid">
+    <div class="content text-center">
+      <h2 class="fs-1 fw-bolder mt-5 mb-3">CONATCT SECTION</h2>
+      <div class="d-flex justify-content-center align-items-center pb-3">
+        <div class="line ms-3"></div>
+        <i class="fa-solid fa-star"></i>
+        <div class="line me-3"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 m-auto">
+        <form class="forms p-3">
+          <label for="userName" [class.animate__fadeOutDown]="!userName" class="animate__animated animate__fadeInUp animate">userName :</label>
+          <input type="text" (keyup)="userNameInput($event)" [(ngModel)]="userName" class="mt-3 form-control" placeholder="userName" name="userName" id="userName">
+
+          <label for="userAge" [class.animate__fadeOutDown]="!userAge" class="mt-3 animate__animated animate__fadeInUp animate">userAge :</label>
+          <input type="text" (keyup)="userAgeInput($event)" class="mt-3 form-control" placeholder="userAge" name="userAge" id="userAge">
+
+          <label for="userEmail" [class.animate__fadeOutDown]="!userEmail" class="mt-3 animate__animated animate__fadeInUp animate">userEmail :</label>
+          <input type="text" (keyup)="userEmailInput($event)" class="mt-3 form-control" placeholder="userEmail" name="userEmail" id="userEmail">
+
+          <label for="userPassword" [class.animate__fadeOutDown]="!userPassword" class="mt-3 animate__animated animate__fadeInUp animate">userPassword :</label>
+          <input type="text" (keyup)="userPasswordInput($event)" class="mt-3 form-control" placeholder="userPassword" name="userPassword" id="userPassword">
+
+          <button type="submit" class="btn btn-primary mt-4">send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
