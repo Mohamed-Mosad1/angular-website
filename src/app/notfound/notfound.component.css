@@ -1,0 +1,9 @@
+.notFound {
+  padding-top: 7.5rem;
+  min-height: 80vh;
+}
+.notFound .line {
+  height: 4px;
+  width: 80px;
+  background-color: #dc3545;
+}
